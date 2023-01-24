@@ -1,6 +1,6 @@
 #!/bin/bash
-#apt update
-#apt install nano
+apt update
+apt install nano
 apt install expect -y
 apt install ssh -y
 apt install net-tools -y
