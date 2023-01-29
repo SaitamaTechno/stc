@@ -1,0 +1,11 @@
+#!/usr/bin/expect
+
+#Usage expect e1.expect <password>
+
+set timeout 60
+
+spawn passwd
+
+expect "New password:" { send "[lindex $argv 0]\r" }
+expect "Retype new password:" { send "[lindex $argv 0]\r" }
+interact
