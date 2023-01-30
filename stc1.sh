@@ -4,6 +4,7 @@ apt install nano
 apt install expect -y
 apt install ssh -y
 apt install net-tools -y
+apt install cron -y
 
 #nano /etc/ssh/sshd_config
 
