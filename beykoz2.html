@@ -12,6 +12,8 @@
 		td {
 		  border: 1px solid #000; /* 1px solid border with black color */
 		  padding: 8px; /* Optional: Add padding to cell content for spacing */
+		  font-weight: bold; /* This makes the text inside <td> elements bold */
+
 		}
 
 	    </style>
@@ -21,9 +23,7 @@
         <link rel="stylesheet" type="text/css" href="/css/belge.css?1" />
     </head>
     <body>
-                 <div class="buttons">
-            <button type="button" onclick="location.href=location.href+'/pdf/1'">Pdf</button>
-            <button type="button" onclick="location.href=location.href+'/excel/1'">Excel</button>
+                
         </div>
                 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:1.5cm">
         			  	<tr>
@@ -61,22 +61,6 @@
                         
 		  	<tr>
 		    <td valign=top>
-
-		    <table border=0 align=center class="a4" cellpadding="0"  cellspacing="0">
-    <tr>
-        <td>
-                            <form id="form1" name="form1" action="" method="post">
-                    
-                    Academic Year: <select id="sezon" name="sezon">
-                        <option value=''>Select</option><option value='0000-0000'>0000-0000</option><option value='2000-2001'>2000-2001</option><option value='2001-2002'>2001-2002</option><option value='2002-2003'>2002-2003</option><option value='2003-2004'>2003-2004</option><option value='2004-2005'>2004-2005</option><option value='2005-2006'>2005-2006</option><option value='2006-2007'>2006-2007</option><option value='2007-2008'>2007-2008</option><option value='2008-2009'>2008-2009</option><option value='2009-2010'>2009-2010</option><option value='2010-2011'>2010-2011</option><option value='2011-2012'>2011-2012</option><option value='2012-2013'>2012-2013</option><option value='2013-2014'>2013-2014</option><option value='2014-2015'>2014-2015</option><option value='2015-2016'>2015-2016</option><option value='2016-2017'>2016-2017</option><option value='2017-2018'>2017-2018</option><option value='2018-2019'>2018-2019</option><option value='2019-2020'>2019-2020</option><option value='2020-2021'>2020-2021</option><option value='2021-2022'>2021-2022</option><option value='2022-2023'>2022-2023</option><option value='2023-2024' selected>2023-2024</option><option value='2024-2025'>2024-2025</option>                    </select>
-                    Semester: <select id="donem" name="donem">
-
-                        <option value=''>Seçiniz</option><option value='1' selected>Güz</option><option value='4'>Güz Tek Ders</option><option value='8'>Not Yükseltme (Güz)</option><option value='2'>Bahar</option><option value='5'>Bahar Tek Ders</option><option value='9'>Not Yükseltme (Bahar)</option><option value='3'>Yaz</option><option value='6'>Yaz Okulu Tek Ders</option><option value='10'>Not Yükseltme (Yaz)</option><option value='7'>Ek Sınav</option>                    </select>
-                    <input type="submit" value="Bring" id="submit" name="submit">
-                </form>
-        </td>
-    </tr>
-</table>
     <table align=center width="95%" border=1>
         <tr>
             <td class=sutun_baslik align=center>MONDAY</td>
@@ -178,60 +162,7 @@
                     </tr>
     </table>
 <br/>
-<table border=0 align=center width="95%" cellpadding="0"  cellspacing="0">
-    <tr>
-        <td colspan="5">DANIŞMANI: İNAL BEGÜM TURNA DEMİREL</td>
-    </tr>
-    <tr>
-        <td class=sutun_baslik>COURSE CODE</td>
-        <td class=sutun_baslik>COURSE NAME	</td>
-        <td class=sutun_baslik align=center>SECTION	</td>
-        <td class=sutun_baslik align=center>INSTRUCTOR</td>
-        <td class=sutun_baslik align=center>CREDIT	</td>
-    </tr>
-            <tr>
-            <td class=belge_satir>60222YEEOZ-HIS1032</td>
-            <td class=belge_satir>Principles of Atatürk and History of Turkish Revolution                            </td>
-            <td class=belge_satir align=center>1 	</td>
-            <td class=belge_satir align=center>HAKKI BAŞGÜNEY	</td>
-            <td class=belge_satir align=center>4</td>
-        </tr>
-                <tr>
-            <td class=belge_satir>60541MEEOZ-CME0023</td>
-            <td class=belge_satir>Discrete Computational Structures                            </td>
-            <td class=belge_satir align=center>2 	</td>
-            <td class=belge_satir align=center>DUYGU DEMİRAY AKKAYA	</td>
-            <td class=belge_satir align=center>3</td>
-        </tr>
-                <tr>
-            <td class=belge_satir>60541TAEOZ-MTH3093</td>
-            <td class=belge_satir>Differential Equations                            </td>
-            <td class=belge_satir align=center>2 	</td>
-            <td class=belge_satir align=center>BURÇİN KÜLAHÇIOĞLU	</td>
-            <td class=belge_satir align=center>3</td>
-        </tr>
-                <tr>
-            <td class=belge_satir>60613MEEOZ-CME0423</td>
-            <td class=belge_satir>Programming Workshop                            </td>
-            <td class=belge_satir align=center>2 	</td>
-            <td class=belge_satir align=center>CEM KAZAN	</td>
-            <td class=belge_satir align=center>3</td>
-        </tr>
-                <tr>
-            <td class=belge_satir>60714MEEOZ-ELE3103</td>
-            <td class=belge_satir>Introduction to Electrical and Electronics Engineering Laboratory                            </td>
-            <td class=belge_satir align=center>2 	</td>
-            <td class=belge_satir align=center>ÖZLEM FEYZA ERKAN	</td>
-            <td class=belge_satir align=center>1</td>
-        </tr>
-                <tr>
-            <td class=belge_satir>60714MEEOZ-ELE3113</td>
-            <td class=belge_satir>Introduction to Electrical and Electronics Engineering                            </td>
-            <td class=belge_satir align=center>2 	</td>
-            <td class=belge_satir align=center>ÖZLEM FEYZA ERKAN	</td>
-            <td class=belge_satir align=center>3</td>
-        </tr>
-        </table>
+
 
 
 
